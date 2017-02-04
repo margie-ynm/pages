@@ -1,0 +1,12 @@
+<h1>Businesses</h1>
+
+<ul>
+<% @businesses.each do |b| %>
+<li><%= link_to b.name, business_path(b) %> </li>
+<ul>
+  <li><%=b.address%></li>
+  <li> <%= b.phone %> </li>
+  <li> <%= b.website %> </li>
+</ul>
+<% end %>
+</ul>
