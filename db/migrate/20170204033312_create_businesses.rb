@@ -5,7 +5,7 @@ class CreateBusinesses < ActiveRecord::Migration[5.0]
       t.column :address, :string
       t.column :website, :string
       t.column :phone, :string
-
+      
       t.timestamps
     end
   end

@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  resources :businesses
+  resources :categories do
+    resources :businesses
+  end
 end
