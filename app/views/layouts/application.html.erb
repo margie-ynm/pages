@@ -11,14 +11,14 @@
   </head>
 
   <body>
-    <nav>
+  <nav class="yellow lighten-1">
    <div class="nav-wrapper">
-     <%= link_to "Home", root_path %>
+     <%= link_to "Home", root_path, :class => "brand-logo" %>
      <ul id="nav-mobile" class="right hide-on-med-and-down">
        <li><%= link_to "Categories", categories_path %></li>
      </ul>
    </div>
- </nav>
+  </nav>
     <div class="container">
       <%= yield %>
     </div>

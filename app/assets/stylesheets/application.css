@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+.brand-logo, nav ul a {
+  color: #000 !important;
+}
+
+.brand-logo {
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+body {
+  font-family: monospace;
+}
